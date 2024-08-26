@@ -1,0 +1,29 @@
+baseURL = 'https://davidfegha.li/'
+languageCode = 'en-us'
+title = "David Feghali's Blog"
+theme = 'david-papermod'
+
+[pagination]
+    patch = 'posts'
+    pagerSize = 6
+    disableAliases = false
+
+[params]
+    [params.homeInfoParams]
+    title = "Welcome"
+    content = "This is my blog"
+
+    [[params.socialIcons]]
+    name= "github"
+    url = "github.com"
+
+    [[params.socialIcons]]
+    name= "linkedin"
+    url = "github.com"
+
+[menu]
+    [[menu.main]]
+    identifier = "archives"
+    name = "Archives"
+    url = "/archives/"
+    weight = 10
